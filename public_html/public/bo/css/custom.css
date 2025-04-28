@@ -1,0 +1,163 @@
+/* left nav */
+#nav_img_logo {
+    margin-bottom:20px;
+}
+
+#nav_img_logo img {
+    width:100%;
+}
+
+.nav .nav_heading {
+    font-weight: 600;
+    padding: 14px 20px 10px 25px;
+    position: relative;
+    display: block;
+    color: white;
+}
+
+.mini-navbar .nav .nav_heading {
+    display:none;
+}
+
+.main_view_wraper {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.admin-checked {
+    color: #95c11f;
+}
+
+.admin-unchecked {
+    color: #3c3c3b;
+}
+
+.form-group .help-block {
+    color: #b41d3b;
+}
+
+.btn-back {
+    background-color: #ededed;
+    border-color: #ededed;
+    color: #FFFFFF;
+}
+
+.btn-back:hover {
+    background-color: #3c3c3b;
+    border-color: #3c3c3b;
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('../fonts/Bariol_Regular.otf');
+}
+
+@font-face { 
+	font-family: 'Bariol'; 
+	font-weight: bold; 
+	src: url('../fonts/Bariol_Bold.otf');
+}
+
+.page-heading-our
+{
+    padding: 0 10px 10px 10px;
+}
+
+
+.remove-image.glyphicon {
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: -5px;
+    margin-right: -5px;
+    z-index: 999;
+    cursor: pointer;
+    /*opacity: 0; */
+    -webkit-transition : all 0.5s ease-out;
+    -moz-transition : all 0.5s ease-out;
+    -o-transition : all 0.5s ease-out;
+    transition : all 0.5s ease-out;
+}
+.current-image-content {
+    position: relative;
+    /* width: 110px; */
+    padding: 5px;
+    display: inline-block;
+}
+.remove-current-image.glyphicon {
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: -5px;
+    margin-right: -5px;
+    z-index: 999;
+    cursor: pointer;
+    /*opacity: 0; */
+    -webkit-transition : all 0.5s ease-out;
+    -moz-transition : all 0.5s ease-out;
+    -o-transition : all 0.5s ease-out;
+    transition : all 0.5s ease-out;
+}
+
+
+.decoder {
+    width: 16.66666667%; padding-bottom: 16.66666667%; padding-left: 0px;
+}
+
+.decoder input {
+    text-align: center; position: absolute;
+    height: 90%;
+    width: 90%;
+    border: 5px solid #cccccc;
+    font-weight: bold;
+    background-color: #ededed;
+    font-size: 100px;
+}
+
+.tableViewWorkReportCell {
+    background-color: rgba(253, 121, 121, 0.38) !important;
+}
+
+.tableViewLateWorkCell {
+    background-color: rgba(253, 243, 121, 0.38) !important;
+}
+
+.page-heading-our h1 {
+    margin-left: 0px;
+}
+
+@media (max-width: 1199px)
+{
+    .page-heading-our h1 {
+        margin-left: 26px;
+    }
+}
+
+.required label:after {
+    color: #ed5565;
+    content: ' *';
+}
+
+.landing-page .header-back.one {
+    background: url('../images/DeeRTechHeader1.jpg') 50% 0 no-repeat;
+}
+.landing-page .header-back.two {
+    background: url('../images/DeeRTechHeader2.jpg') 50% 0 no-repeat;
+}
+.landing-page .header-back.three {
+    background: url('../images/DeeRTechHeader3.jpg') 50% 0 no-repeat;
+}
+.landing-page .header-back.four {
+    background: url('../images/DeeRTechHeader4.jpg') 50% 0 no-repeat;
+}
+.landing-page .carousel-indicators {
+    padding-right: 0px;
+}
+.text-centered {
+    text-align: center;
+}
